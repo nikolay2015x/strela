@@ -194,7 +194,8 @@ body {
 
 @media all and (max-width: 991px) {
   .right-text {
-    margin-left: 0;
+    margin-left: 99px;
+    margin-top: -50px;
   }
 }
 .right h5 {

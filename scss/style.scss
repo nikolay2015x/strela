@@ -169,13 +169,6 @@ body{
     height: 2px;
     margin-top: -29px;
 }
-// .right-text a{
-//     font-size: 14px;
-//     color: $text-color!important;
-//     line-height: 1.071!important;
-//     margin-left: 68px;
-//     text-decoration: none;
-// }
 .right-text{
     font-size: 14px;
     color: $text-color;
@@ -184,7 +177,8 @@ body{
 }
 @media all and (max-width: 991px){
     .right-text{
-        margin-left: 0;
+        margin-left: 99px;
+        margin-top: -50px;
     }
 }
 .right h5{
