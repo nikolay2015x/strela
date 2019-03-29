@@ -56,12 +56,22 @@ body {
   max-width: 100%;
 }
 
-.headline {
+.link_text a {
   font-size: 22px;
-  color: #44a19c;
+  color: #44a19c !important;
   line-height: 1.091;
+  text-decoration: none;
 }
 
+.link_text a:hover {
+  color: #56c9c3 !important;
+}
+
+@media all and (max-width: 991px) {
+  .link_text {
+    margin-top: 100px;
+  }
+}
 .block-text {
   font-size: 16px;
   color: #323232;
@@ -159,6 +169,14 @@ body {
 
 .right {
   margin-top: 25px;
+}
+
+.right a {
+  text-decoration: none;
+}
+
+.right .right-text:hover {
+  color: #e46e4d !important;
 }
 
 .right-line {
